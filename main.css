@@ -23,11 +23,9 @@ html {
     line-height: 1.4;
 }
 
-p{color:black;text-align:left;}
-a{color:purple;text-align:right;}
-
 div.testing{
-color:orange;
+color:yellow;
+font-size: 10em;
 text-align:right;
 font-size: 1em;
 position:absolute;
@@ -55,6 +53,7 @@ div.background
 div.h5{
 text-align: left;
 padding: 100px;
+display: none;
 margin: 1px;
 color: red;
 }
@@ -143,21 +142,155 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* set the main font for paragraphs */
+p{
+    color:white;
+    text-align:left;
+    font-size: 2em;
+    font-family: sans-serif;
+}
 
 
+a{
+    color:grey;
+    text-align:right;
+}
+
+/* set the big hold all div */
+#holdall {
+
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+/* set the banner */
+
+#banner {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    top: 0;
+    color: grey;
+    line-height: .5em;
+    height: 15px;
+    text-align: right;
+    background: #F7FAFB;
+    width: 100%;
+}
+
+/* create a logo div */
+
+#logo {
+
+    align: center;
+    width: 500px;
+    height: 200px; 
+/*    height: 20%; */
+    margin: 0 auto;
+    padding: 0;
+    content: url("http://i.imgur.com/4rMdMdO.png"); 
+    
+}
+
+#infobar {
+
+    padding: auto; 
+    font-size: 10px;
+    position: fixed;
+    right: 15px;
+    top: 10px;
+
+}
+
+/* Creates a responsive wrapper that makes our content scale nicely */
+#inner {
+    position: relative;
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#innertweetfeed {
+    position: relative;
+    width: 80%;
+    max-width: 200px;
+    margin: 0 auto;
+    font: white:
+}
+
+#innerbanner {
+    position: relative;
+    width: 95%;
+    max-width: 100%;
+    margin: 0 auto;
+}
 
 
+#site-footer {
+    position: fixed;
+/*    margin: 1.5rem 0 0 0; */
+/*    padding: 1rem 0; */
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    bottom: 0;
+    color: grey;
+    line-height: .5em;
+    height: 15px;
+    color: #BBC7CC;
+    text-align: center;
+    background: transparent;
+    width: 100%;
+}
 
 
+/* Create a holder for both feeds to come into the page*/
+#wrapper {
 
+    width: 800px;
+    height: 500px;
+    align: center;
+    margin: 0 auto;
+    top: 215px; 
+    overflow: auto;
+/*    top: 20.5%; */
+    
+}
 
+/* get the tweet and blog feed positioned side by side */
 
+#tweetfeed, #expression, #blog-feed {
+    border: none;
+    min-height: 500px;
+}
 
+/* place a div between the two feeds */
 
+#expression {
 
+    float: left;
+    width: 200px;
+    height: 500px;
 
+}
 
+/* get the tweet feed positioned */
 
+#tweetfeed{
+
+    float: left;
+    width: 300px;
+    height: 500px;
+}
+
+/* get the blog feed positioned */
+
+#blog-feed{
+    float: left;
+    width: 300px;
+    height: 500px;
+}
 
 /* ==========================================================================
    Helper classes
