@@ -1,0 +1,32 @@
+/* setup the links to other place div */
+
+#infobar {
+
+    padding: auto;
+    float: right; 
+    font-size: 10px;
+/*    text-shadow: 1px 1px 2px #000, 3px 3px 5px blue; */
+    position: fixed;
+    right: 15px;
+    top: 10px;
+
+}
+
+.showme{ display: none;}
+.showhim:hover .showme{display : block;}
+.showhim:hover .ok{display : none;}
+
+
+/* below is a sample of working html code for the above*/
+
+/* <div class="showhim">
+        <li><p id="inforbarp"><a href="https://github.com/zaniphrom/" target="_blank">github</a></p></li>
+        	<div class="showme">
+        	<ul>
+	 			<li><p id="inforbarp"><a href="https://github.com/zaniphrom/btc_python_learning" target="_blank">.py</a></p></li>
+	 			<li><p id="inforbarp"><a href="https://github.com/zaniphrom/bash" target="_blank">.sh</a></p></li>
+	 			<li><p id="inforbarp"><a href="https://github.com/zaniphrom/css" target="_blank">.css</a></p></li>
+	 		</ul>
+	 		</div>
+</div> */ 
+	

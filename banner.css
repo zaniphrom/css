@@ -1,0 +1,13 @@
+/* set the banner */
+
+#banner {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    top: 0;
+    color: grey;
+    line-height: .5em;
+    height: 15px;
+    text-align: right;
+    background: #F7FAFB;
+    width: 100%;
+}

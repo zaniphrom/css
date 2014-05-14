@@ -1,0 +1,48 @@
+/* Create a holder for both feeds to come into the page*/
+#wrapper {
+
+    width: 800px;
+    height: 500px;
+    align: center;
+    margin: 0 auto;
+    top: 215px; 
+    overflow: auto;
+/*    top: 20.5%; */
+    
+}
+
+/* get the tweet and blog feed positioned side by side */
+
+#tweetfeed, #expression, #blog-feed {
+    border: none;
+    min-height: 500px;
+}
+
+/* place a div between the two feeds */
+
+#expression {
+
+    float: left;
+    width: 200px;
+    height: 500px;
+
+}
+
+/* get the tweet feed positioned */
+
+#tweetfeed{
+
+    float: left;
+    width: 300px;
+    height: 500px;
+}
+
+/* get the blog feed positioned */
+
+#blog-feed{
+    float: left;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+}
+

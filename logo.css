@@ -1,0 +1,35 @@
+/* create the ErrRight logo div */
+
+#logo {
+
+    float: left;
+    position: fixed;
+    margin-left: 5px;
+    top: 5px;
+    width: 20%;
+/*    width: 200px; */
+    height: 200px; 
+/*    height: 20%; */
+/*    margin: 0 auto; */
+    padding: 0;
+   content: url("http://i.imgur.com/4rMdMdO.png"); 
+    
+}
+
+/* support for logo in firefox */
+#logo::before {
+
+    float: -moz-left;
+    position: fixed;
+    margin-left: 5px;
+    top: 5px;
+    width: 200px;
+    max-height: 200px; 
+    margin: 0 auto;
+    padding: 0;
+    content: url("http://i.imgur.com/4rMdMdO.png"); 
+    display: inline-block; 
+    overflow: hidden; 
+    
+}
+
